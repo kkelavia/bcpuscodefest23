@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Referral System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 class="page-title">Referral System</h1>
+
+    <form method="POST"  class="referral-form">
+        <label for="patient_name">Patient Name:</label>
+        <input type="text" name="patient_name" class="form-input" required>
+
+        <label for="referring_doctor">Referring Doctor:</label>
+        <input type="text" name="referring_doctor" class="form-input" required>
+
+        <label for="specialty">Specialty:</label>
+        <input type="text" name="specialty" class="form-input" required>
+
+        <label for="reason">Reason for Referral:</label>
+        <textarea name="reason" class="form-input" required></textarea>
+
+        <label for="contact_number">Contact number:</label>
+        <input type="tel" name="contact_number" class="form-input" required>
+
+        <input type="text" placeholder="First Name" name="firstname" value="{{
+            request.form.firstname }}">
+        <input type="text" placeholder="Surname" name="surname" value="{{
+            request.form.surname }}">
+        <input type="text" placeholder="Mobile" name="mobile" value="{{
+              request.form.mobile }}">
+
+        <input type="submit" value="Submit Referral" class="submit-button">
+    </form>
+
+    
+</body>
+</html>

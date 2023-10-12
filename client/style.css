@@ -1,0 +1,60 @@
+/* Apply some general styles to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.page-title {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the form elements */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the list of referred patients */
+.section-title {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+.patient-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.patient-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.patient-name {
+    font-weight: bold;
+}
+
+.referring-doctor, .specialty, .reason, .contact-number {
+    color: #333;
+}
