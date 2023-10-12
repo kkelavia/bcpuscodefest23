@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please login</h1>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="First Name" name="firstname" value="{{
+          request.form.firstname }}">
+        <input type="text" placeholder="Surname" name="surname" value="{{
+          request.form.surname }}">
+        <input type="text" placeholder="Mobile" name="mobile" value="{{
+            request.form.mobile }}">
+        <input class="btn btn-default" type="submit" value="Submit the referral">
+      </form>
+    </div>
+  </body>
+</html>
